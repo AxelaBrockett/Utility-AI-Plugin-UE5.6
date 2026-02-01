@@ -1,0 +1,24 @@
+{
+	"OutputFiles": [
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\AxelaBrockettUtilityAIBase\\Module.AxelaBrockettUtilityAIBase.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\AxelaBrockettUtilityAIBase\\AxelaBrockettUtilityAIBase.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\AxelaBrockettUtilityAIBase\\ABUtilityActionBase.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\AxelaBrockettUtilityAIBase\\ABUtilityActionBlueprintBase.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\AxelaBrockettUtilityAIBase\\ABUtilityAction_MoveTo.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\AxelaBrockettUtilityAIBase\\ABUtilityAction_ZGMoveTo.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\AxelaBrockettUtilityAIBase\\ABUtilityFactorBase.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\AxelaBrockettUtilityAIBase\\ABUtilityFactorBlueprintBase.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\AxelaBrockettUtilityAIBase\\ABUtilityFactor_DistToPlayer.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\AxelaBrockettUtilityAIBase\\ABUtilityFactor_HostileActorDist.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\AxelaBrockettUtilityAIBase\\ABUtilityRequirementBase.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\AxelaBrockettUtilityAIBase\\ABUtilityRequirementBPBase.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\AxelaBrockettUtilityAIBase\\ABUtilityRequirement_HasActor.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\AxelaBrockettUtilityAIBase\\ABUtilityRequirement_MultiReq.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\AxelaBrockettUtilityAIBase\\ABUtilityRequirement_SenseValue.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\AxelaBrockettUtilityAIBase\\ABUtilityComponent.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\AxelaBrockettUtilityAIBase\\ABUtilityDataAsset.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\AxelaBrockettUtilityAIBase\\GameplayDebuggerCategory_Utility.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\AxelaBrockettUtilityAIBase\\ABUtilityHelpers.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\AxelaBrockettUtilityAIBase\\ABUtilityTypes.cpp.obj"
+	]
+}
