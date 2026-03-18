@@ -1,0 +1,121 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "Actions/Actions/Examples/ABUtilityAction_RunParallel.h"
+
+#ifdef AXELABROCKETTUTILITYAIBASE_ABUtilityAction_RunParallel_generated_h
+#error "ABUtilityAction_RunParallel.generated.h already included, missing '#pragma once' in ABUtilityAction_RunParallel.h"
+#endif
+#define AXELABROCKETTUTILITYAIBASE_ABUtilityAction_RunParallel_generated_h
+
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+
+class UABUtilityActionBase;
+class UABUtilityActionInstanceMemoryBase;
+enum class EABUtilityActionRunStatus : uint8;
+
+// ********** Begin Class UABUtilityActionRunParallelInstanceMemory ********************************
+AXELABROCKETTUTILITYAIBASE_API UClass* Z_Construct_UClass_UABUtilityActionRunParallelInstanceMemory_NoRegister();
+
+#define FID_TestBuilds_Build1_AxelaBrockettUtilityAIBase_HostProject_Plugins_AxelaBrockettUtilityAIBase_Source_AxelaBrockettUtilityAIBase_Public_Actions_Actions_Examples_ABUtilityAction_RunParallel_h_22_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUABUtilityActionRunParallelInstanceMemory(); \
+	friend struct Z_Construct_UClass_UABUtilityActionRunParallelInstanceMemory_Statics; \
+	static UClass* GetPrivateStaticClass(); \
+	friend AXELABROCKETTUTILITYAIBASE_API UClass* Z_Construct_UClass_UABUtilityActionRunParallelInstanceMemory_NoRegister(); \
+public: \
+	DECLARE_CLASS2(UABUtilityActionRunParallelInstanceMemory, UABUtilityActionInstanceMemoryBase, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/AxelaBrockettUtilityAIBase"), Z_Construct_UClass_UABUtilityActionRunParallelInstanceMemory_NoRegister) \
+	DECLARE_SERIALIZER(UABUtilityActionRunParallelInstanceMemory)
+
+
+#define FID_TestBuilds_Build1_AxelaBrockettUtilityAIBase_HostProject_Plugins_AxelaBrockettUtilityAIBase_Source_AxelaBrockettUtilityAIBase_Public_Actions_Actions_Examples_ABUtilityAction_RunParallel_h_22_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UABUtilityActionRunParallelInstanceMemory(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	/** Deleted move- and copy-constructors, should never be used */ \
+	UABUtilityActionRunParallelInstanceMemory(UABUtilityActionRunParallelInstanceMemory&&) = delete; \
+	UABUtilityActionRunParallelInstanceMemory(const UABUtilityActionRunParallelInstanceMemory&) = delete; \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UABUtilityActionRunParallelInstanceMemory); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UABUtilityActionRunParallelInstanceMemory); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UABUtilityActionRunParallelInstanceMemory) \
+	NO_API virtual ~UABUtilityActionRunParallelInstanceMemory();
+
+
+#define FID_TestBuilds_Build1_AxelaBrockettUtilityAIBase_HostProject_Plugins_AxelaBrockettUtilityAIBase_Source_AxelaBrockettUtilityAIBase_Public_Actions_Actions_Examples_ABUtilityAction_RunParallel_h_19_PROLOG
+#define FID_TestBuilds_Build1_AxelaBrockettUtilityAIBase_HostProject_Plugins_AxelaBrockettUtilityAIBase_Source_AxelaBrockettUtilityAIBase_Public_Actions_Actions_Examples_ABUtilityAction_RunParallel_h_22_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_TestBuilds_Build1_AxelaBrockettUtilityAIBase_HostProject_Plugins_AxelaBrockettUtilityAIBase_Source_AxelaBrockettUtilityAIBase_Public_Actions_Actions_Examples_ABUtilityAction_RunParallel_h_22_INCLASS_NO_PURE_DECLS \
+	FID_TestBuilds_Build1_AxelaBrockettUtilityAIBase_HostProject_Plugins_AxelaBrockettUtilityAIBase_Source_AxelaBrockettUtilityAIBase_Public_Actions_Actions_Examples_ABUtilityAction_RunParallel_h_22_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+class UABUtilityActionRunParallelInstanceMemory;
+
+// ********** End Class UABUtilityActionRunParallelInstanceMemory **********************************
+
+// ********** Begin Class UABUtilityAction_RunParallel *********************************************
+#define FID_TestBuilds_Build1_AxelaBrockettUtilityAIBase_HostProject_Plugins_AxelaBrockettUtilityAIBase_Source_AxelaBrockettUtilityAIBase_Public_Actions_Actions_Examples_ABUtilityAction_RunParallel_h_50_RPC_WRAPPERS_NO_PURE_DECLS \
+	DECLARE_FUNCTION(execOnParallelActionCompleted);
+
+
+AXELABROCKETTUTILITYAIBASE_API UClass* Z_Construct_UClass_UABUtilityAction_RunParallel_NoRegister();
+
+#define FID_TestBuilds_Build1_AxelaBrockettUtilityAIBase_HostProject_Plugins_AxelaBrockettUtilityAIBase_Source_AxelaBrockettUtilityAIBase_Public_Actions_Actions_Examples_ABUtilityAction_RunParallel_h_50_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUABUtilityAction_RunParallel(); \
+	friend struct Z_Construct_UClass_UABUtilityAction_RunParallel_Statics; \
+	static UClass* GetPrivateStaticClass(); \
+	friend AXELABROCKETTUTILITYAIBASE_API UClass* Z_Construct_UClass_UABUtilityAction_RunParallel_NoRegister(); \
+public: \
+	DECLARE_CLASS2(UABUtilityAction_RunParallel, UABUtilityActionBase, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/AxelaBrockettUtilityAIBase"), Z_Construct_UClass_UABUtilityAction_RunParallel_NoRegister) \
+	DECLARE_SERIALIZER(UABUtilityAction_RunParallel)
+
+
+#define FID_TestBuilds_Build1_AxelaBrockettUtilityAIBase_HostProject_Plugins_AxelaBrockettUtilityAIBase_Source_AxelaBrockettUtilityAIBase_Public_Actions_Actions_Examples_ABUtilityAction_RunParallel_h_50_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UABUtilityAction_RunParallel(); \
+	/** Deleted move- and copy-constructors, should never be used */ \
+	UABUtilityAction_RunParallel(UABUtilityAction_RunParallel&&) = delete; \
+	UABUtilityAction_RunParallel(const UABUtilityAction_RunParallel&) = delete; \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UABUtilityAction_RunParallel); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UABUtilityAction_RunParallel); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UABUtilityAction_RunParallel) \
+	NO_API virtual ~UABUtilityAction_RunParallel();
+
+
+#define FID_TestBuilds_Build1_AxelaBrockettUtilityAIBase_HostProject_Plugins_AxelaBrockettUtilityAIBase_Source_AxelaBrockettUtilityAIBase_Public_Actions_Actions_Examples_ABUtilityAction_RunParallel_h_47_PROLOG
+#define FID_TestBuilds_Build1_AxelaBrockettUtilityAIBase_HostProject_Plugins_AxelaBrockettUtilityAIBase_Source_AxelaBrockettUtilityAIBase_Public_Actions_Actions_Examples_ABUtilityAction_RunParallel_h_50_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_TestBuilds_Build1_AxelaBrockettUtilityAIBase_HostProject_Plugins_AxelaBrockettUtilityAIBase_Source_AxelaBrockettUtilityAIBase_Public_Actions_Actions_Examples_ABUtilityAction_RunParallel_h_50_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_TestBuilds_Build1_AxelaBrockettUtilityAIBase_HostProject_Plugins_AxelaBrockettUtilityAIBase_Source_AxelaBrockettUtilityAIBase_Public_Actions_Actions_Examples_ABUtilityAction_RunParallel_h_50_INCLASS_NO_PURE_DECLS \
+	FID_TestBuilds_Build1_AxelaBrockettUtilityAIBase_HostProject_Plugins_AxelaBrockettUtilityAIBase_Source_AxelaBrockettUtilityAIBase_Public_Actions_Actions_Examples_ABUtilityAction_RunParallel_h_50_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+class UABUtilityAction_RunParallel;
+
+// ********** End Class UABUtilityAction_RunParallel ***********************************************
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_TestBuilds_Build1_AxelaBrockettUtilityAIBase_HostProject_Plugins_AxelaBrockettUtilityAIBase_Source_AxelaBrockettUtilityAIBase_Public_Actions_Actions_Examples_ABUtilityAction_RunParallel_h
+
+// ********** Begin Enum EABRunParallelFailureType *************************************************
+#define FOREACH_ENUM_EABRUNPARALLELFAILURETYPE(op) \
+	op(EABRunParallelFailureType::OneFails) \
+	op(EABRunParallelFailureType::AllFail) 
+
+enum class EABRunParallelFailureType : uint8;
+template<> struct TIsUEnumClass<EABRunParallelFailureType> { enum { Value = true }; };
+template<> AXELABROCKETTUTILITYAIBASE_API UEnum* StaticEnum<EABRunParallelFailureType>();
+// ********** End Enum EABRunParallelFailureType ***************************************************
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
