@@ -42,3 +42,4 @@ V1.1.0
 
 V1.1.1
 - Updated the helpers to have platform specific includes for the Platform Stack Walk
+- Small bug fixes and bug prevention
