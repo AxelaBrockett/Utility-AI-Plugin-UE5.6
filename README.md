@@ -43,3 +43,17 @@ V1.1.0
 V1.1.1
 - Updated the helpers to have platform specific includes for the Platform Stack Walk
 - Small bug fixes and bug prevention
+
+V1.2.0
+- Remove the UABUtilityComponent and swap dependencies and inputs from UABUtilityComponent to AController
+    - This makes Actions available to players as well as AI
+    - Component logic will be moved to the UUtilitySubsystem
+- Added branch prediction helpers for optimisation
+- Added available Action helpers:
+    - BTTask_RunUtilityAction
+    - BTTask_RunUtilityDataAsset
+    - STTask_RunUtilityAction
+    - STTask_RunUtilityDataAsset
+- Added Requirements examples, both come from the fact that the system is now open to both AI and players
+    - UABUtilityRequirement_IsAI
+    - UABUtilityRequirement_IsPlayer
