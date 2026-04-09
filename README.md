@@ -57,3 +57,9 @@ V1.2.0
 - Added Requirements examples, both come from the fact that the system is now open to both AI and players
     - UABUtilityRequirement_IsAI
     - UABUtilityRequirement_IsPlayer
+- Simplified the Instance Memory base class to have less possible conflicts
+    - bNeedsTick and corresponding functions removed
+    - Class now holds an EABUtilityActionRunStatus, bNeedsTick replaced with this enum being in the Running state
+    - bTickableActionComplete and bSuccess removed from the base class, it will be in any child classes that require it
+- ControllerSubscribed() and ControllerUnsubscribed() functions added as post-initilization functions to be run when a Controller subscribes or unsubscribes
+- Callstack printing is no longer a setting in the plugin settings, it is a parameter defaulted to false when calling ABUtility::Helpers::UtilityVLOG()
